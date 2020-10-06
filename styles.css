@@ -1,9 +1,9 @@
 #log-in-row {
   display: flex;
-  background-color: blue;
+  background-color: #3b5998;
   height: 80px;
   justify-content: space-between;
-  padding: 10px;
+  padding: 8px;
 }
 /* #log-in-email-and-password-col {
   display: flex;
@@ -11,23 +11,25 @@
   border: solid green;
 } */
 
-form.log-in {
+div.log-in {
   display: flex;
+  flex-direction: column;
   /* justify-content: space-between; */
-  align-self: flex-end;
+  /* align-self: flex-end;
+  align-items: flex-end; */
   border: solid black;
-  padding: 20px;
-  margin: 10px;
+  padding: 3px;
+  margin: 1px;
 }
 form.main-log-in {
   display: flex;
   border: solid gold;
   /* align-items: stretch; */
   align-items: center;
-  align-self: auto;
+  align-self: center;
   /* align-self: flex-start; */
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
 }
 #log-in-row-2 {
   display: flex;
@@ -35,32 +37,32 @@ form.main-log-in {
 }
 .facebook-logo {
   display: flex;
-  width: 60px;
-  height: 40px;
-  margin: 3px;
-  padding: 20px;
-  align-self: auto;
-  flex-grow: 2;
+  width: 185px;
+  height: 65px;
+  margin: 4px;
+  padding-top: 6px;
+  padding: 22px;
+  align-self: center;
+  /* flex-grow: 2; */
   /* align-self: center; */
   border: solid gold;
 }
 .sign-up {
   display: flex;
-  width: 60px;
-  height: 25px;
-  margin: 10px;
-  padding: 20px;
-  align-self: auto;
-  flex-grow: 2;
+  width: 85px;
+  height: 45px;
+  margin: 4px;
+  padding: 14px;
+  align-self: center;
+  /* flex-grow: 4; */
   /* align-self: center; */
-
   border: solid silver;
 }
 h5.username {
   /* display: flex; */
   display: inline-block;
   /* text-align: right; */
-  padding-right: 10px;
+  padding-right: 6px;
   /* align-self: flex-end; */
   /* float: left; */
   /* padding: 20px; */
@@ -68,7 +70,7 @@ h5.username {
 }
 h5.password {
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 6px;
   /* text-align: right; */
   /* align-self: flex-end; */
   /* float: left; */
@@ -83,11 +85,11 @@ h5.password {
 }
 #log-into-facebook-here-row {
   display: flex;
-  justify-content: space-around;
-  align-content: center;
+  /* justify-content: space-between; */
+  align-content: space-evenly;
   flex-flow: column wrap;
   flex-wrap: wrap;
-  background-color: red;
+  background-color: lightslategray;
   height: 40vw;
 }
 #different-languages-row {
@@ -132,3 +134,7 @@ h3.log-in-facebook {
   align-self: flex-end;
   border: solid pink;
 } */
+#log-in-email-and-password-col {
+  display: flex;
+  align-items: center;
+}
