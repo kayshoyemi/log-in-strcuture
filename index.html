@@ -51,58 +51,63 @@
     <!-- start of the main logging in row  -->
     <div id="log-into-facebook-here-row">
       <!-- log-in text  -->
+      <div id="wrapper-row">
+        <h3 class="log-in-facebook">Log In To Facebook</h3>
+        <form class="main-log-in" action="/action_page.php">
+          <!-- <label for="log-in-facebook">log in to facebook</label> -->
+          <div class="email-sec">
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="enter your email.."
+            />
+          </div>
+        </form>
 
-      <h3 class="log-in-facebook">Log In To Facebook</h3>
-      <form class="main-log-in" action="/action_page.php">
-        <!-- <label for="log-in-facebook">log in to facebook</label> -->
-        <div class="email-sec">
-          <label for="email">Email:</label>
-          <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="enter your email.."
-          />
-        </div>
-      </form>
+        <form class="main-log-in" action="/action_page.php">
+          <div class="password-sec">
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Your password.."
+            />
+          </div>
+        </form>
 
-      <form class="main-log-in" action="/action_page.php">
-        <div class="password-sec">
-          <label for="password">Password:</label>
-          <input
-            type="text"
-            id="password"
-            name="password"
-            placeholder="Your password.."
-          />
-        </div>
-      </form>
+        <form class="main-log-in-btn" action="/action_page.php">
+          <div class="log-in-sec">
+            <input type="text" value="Log In" />
+          </div>
+        </form>
+        <!-- <div class="main-log-in-btn">
+            <h2>Buttons (w3-button)</h2>
+            <input type="button" class="w3-button w3-black" value="Input Button"> -->
 
-      <form class="main-log-in" action="/action_page.php">
-        <div class="log-in-sec">
-          <input type="log-in-btn" value="Log In" />
-        </div>
-      </form>
+        <form class="main-log-in" action="/action_page.php">
+          <div class="forgotten-password-button">
+            <input type="forgotten_pw" value="Forgot Your Password" />
+          </div>
+        </form>
 
-      <form class="main-log-in" action="/action_page.php">
-        <div class="forgotten-password-button">
-          <input type="forgotten_pw" value="Forgot Your Password" />
-        </div>
-      </form>
+        <form class="main-log-in" action="/action_page.php">
+          <div class="create-new-account">
+            <input type="create-new-account" value="Create New Account" />
+          </div>
 
-      <form class="main-log-in" action="/action_page.php">
-        <div class="create-new-account">
-          <input type="create-new-account" value="Create New Account" />
-        </div>
-
-        <!-- <label for="create-new-account">Create New Account</label>
+          <!-- <label for="create-new-account">Create New Account</label>
         <select id="country" name="country">
           <option value="australia">Australia</option>
           <option value="canada">Canada</option>
           <option value="usa">USA</option>
           <option value="Mandarin Chinese">Mandarin Chinese</option>
         </select> -->
-      </form>
+        </form>
+      </div>
+
       <div class="log-in-text"></div>
       <!-- log-in  with email and password -->
       <div class="log-in-email-and-password-row"></div>
@@ -117,11 +122,32 @@
     <!-- start of different languages row -->
     <div id="different-languages-row">
       <!-- multiple languages in one row  -->
-      <div class="row-1"></div>
-      <!-- multiple languages in another row -->
-      <div class="row-2"></div>
-      <!-- some more languages  -->
-      <div class="row-3"></div>
+      <div class="languages-row">
+        <ul>
+          Choose Desired langauge:
+          <li>
+            <a
+              href="https://www.visualcapitalist.com/100-most-spoken-languages/"
+            >
+              English, Hindu, Spanish, French, Benali, Russian, Portuguese,
+              Urdu, German(standard), Marathi, Punjabi (western), Italian</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.visualcapitalist.com/100-most-spoken-languages/"
+              >Gujarati, Iranian (Perian), Bhojpuri, Polish, Odia, Maithili,
+              Ukrainian, Pubjabi (eastern), Pidgin (Nigerian), Sindhi
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.visualcapitalist.com/100-most-spoken-languages/"
+              >Nepali, Romanian, Dutch</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
     <!-- end of the different languages row  -->
   </body>
