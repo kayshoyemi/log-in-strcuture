@@ -218,11 +218,11 @@ h4.log-in-facebook {
   align-items: center;
   align-self: center;
   margin-top: 36px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   padding-top: 2px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   border-top: 20px;
-  border-bottom: 20px;
+  /* border-bottom: 20px; */
 }
 .forgotten-password-button {
   display: block;
@@ -234,7 +234,6 @@ h4.log-in-facebook {
   padding: 4px;
   border-radius: 2px;
   width: 185px;
-  background-color: solid black;
 }
 button.main-log-in-btn {
   display: block;
